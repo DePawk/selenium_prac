@@ -31,7 +31,7 @@ class Browser:
         self.click_button(by = By.NAME, value = "gtop")
 
 if __name__ == "__main__":
-    browser = Browser("C:/webdriver/chromedriver.exe")
+    browser = Browser("C:/webdriver/chromedriver.exe") # add your chromdriver location here 
     browser.open_page('https://mapleroyals.com/?page=vote')
     time.sleep(5)
 
